@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="iYoung-web:war">
+    <output-path>$PROJECT_DIR$/iYoung-web/target</output-path>
+    <root id="archive" name="iYoung-web.war">
+      <element id="artifact" artifact-name="iYoung-web:war exploded" />
+    </root>
+  </artifact>
+</component>
