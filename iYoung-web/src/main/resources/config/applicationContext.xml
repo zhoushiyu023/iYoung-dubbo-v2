@@ -20,6 +20,7 @@
     <import resource="../dubbo/dubbo-provider.xml" />
     <import resource="../dubbo/dubbo-consumer.xml" />
     <import resource="../dubbo/dubbo-common.xml" />
+    <import resource="classpath*:mybatis/data-source.xml"/>
 
     <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="locations">
